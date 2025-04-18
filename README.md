@@ -19,7 +19,7 @@ Installation
 Clone this repository:
 
 ```console
-https://github.com/abdounikarim/poc-symfony-doctrine-mysql
+https://github.com/ProofOfConceptFactory/poc-symfony-doctrine-mysql
 ```
 
 Go on the project root folder:
