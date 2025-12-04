@@ -55,13 +55,13 @@ symfony console doctrine:migrations:migrate --no-interaction
 Insert data with symfony command:
 
 ```console
-symfony console doctrine:query:sql "INSERT INTO dummy (name) VALUES ('Foo'), ('Bar'), ('Baz');"
+symfony console dbal:run-sql "INSERT INTO dummy (name) VALUES ('Foo'), ('Bar'), ('Baz');"
 ```
 
 Select data with symfony command:
 
 ```console
-symfony console doctrine:query:sql "SELECT * FROM dummy;"
+symfony console dbal:run-sql "SELECT * FROM dummy;"
 ```
 
 Usage
@@ -94,13 +94,13 @@ symfony console doctrine:migrations:migrate --no-interaction --env=test
 Insert data with symfony command in test env:
 
 ```console
-symfony console doctrine:query:sql "INSERT INTO dummy (name) VALUES ('Foo'), ('Bar'), ('Baz');" --env=test
+symfony console dbal:run-sql "INSERT INTO dummy (name) VALUES ('Foo'), ('Bar'), ('Baz');" --env=test
 ```
 
 Select data with symfony command in test env:
 
 ```console
-symfony console doctrine:query:sql "SELECT * FROM dummy;" --env=test
+symfony console dbal:run-sql "SELECT * FROM dummy;" --env=test
 ```
 
 Execute this command to run tests:
