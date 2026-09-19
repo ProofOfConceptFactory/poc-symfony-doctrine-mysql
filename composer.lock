@@ -7121,16 +7121,16 @@
         },
         {
             "name": "symfony/ux-turbo",
-            "version": "v3.4.0",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/ux-turbo.git",
-                "reference": "daa104b4764781da830362a280990ca7b21f6a47"
+                "reference": "f5334d4aa63e14086f61e332edc042583945a4ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/ux-turbo/zipball/daa104b4764781da830362a280990ca7b21f6a47",
-                "reference": "daa104b4764781da830362a280990ca7b21f6a47",
+                "url": "https://api.github.com/repos/symfony/ux-turbo/zipball/f5334d4aa63e14086f61e332edc042583945a4ba",
+                "reference": "f5334d4aa63e14086f61e332edc042583945a4ba",
                 "shasum": ""
             },
             "require": {
@@ -7198,7 +7198,7 @@
                 "turbo-stream"
             ],
             "support": {
-                "source": "https://github.com/symfony/ux-turbo/tree/v3.4.0"
+                "source": "https://github.com/symfony/ux-turbo/tree/v3.5.0"
             },
             "funding": [
                 {
@@ -7218,7 +7218,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-27T05:38:40+00:00"
+            "time": "2026-09-19T11:07:10+00:00"
         },
         {
             "name": "symfony/validator",
